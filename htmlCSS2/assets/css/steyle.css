@@ -1,0 +1,35 @@
+*{
+    text-align: center;
+    
+}
+
+h1{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+}
+.tablo {
+    text-align: center;
+    margin-top: 20px ;
+    border: 2px solid gray;
+    border-collapse: collapse;
+    width: 50%;
+    /* eger iki cizgi ustuste geliyorsa teke indirmek icin border collapse  */
+    /* borde cizi stili ilk kalinlik solid duz cizgi renk */
+    margin-left: auto; 
+    margin-right: auto; 
+}
+/* birden fazla  ayni stillendirme yapilacaksa , ile ayrilarak yazilabilir. */
+th, 
+td{
+    border: 2px solid gray;
+}
+th{
+    background-color: greenyellow;/* arka plan rengi*/
+}
+tr :hover {
+    background-color: rgb(100, 160, 180);
+}
+ tr:nth-child(even){ /* satir secilerek arka rengi ayarlanabiliyor*/
+     background-color: rgb(216, 212, 212);
+ }

@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>< HTML| TABLO EKLE |CSS Inline</title>
+    <style>
+
+        *{
+            /* * texteki herseyi degistirir t */
+        }
+        /* eger tum h1 lerde yada baksa herhangi bir seyin tamamini degistirmek icin
+    head icerisinde style komutu aciyorum.
+            css selector ler ile istenilen html elemnaina stillendirme verilebilir */
+            h1{
+                color: red;
+                font-size: 25px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: center;
+                margin-top: 30px; }
+                /* margin top usten bosluk birakma
+                font size piksel
+                tect center basligi ortalama
+                font familiy yazi stili */
+        /* style  etiketi ile yapilan stillendirmeler sadece bu dosya icin gecerli olur 
+         Eğer tüm proje için global bir stillendirme istersek o zaman harici bir .
+         CSS dosyası oluşturmak ve bu dosyayı HTML'e import etmek gerekir*/
+
+         p{
+             color: blue;
+         }
+           #p1{
+               color: gold;
+           }
+/* id ile istenilen cumle secilebilir ve #p1 seklinde #  ile ulasip istenilen stillendirme 
+yapilabilir */
+            .p2{
+                color: green;
+}
+/* cllaslara ulasaip stillendirmek icin . kullanilir */
+    </style>
+</head>
+<body>
+    <h1 >TABLO EKLEME</h1>
+    <h1 >CSS Stillendirme</h1>
+    <p id="p1">Bu bir paragraftir.</p>
+    <p class="p2">Bu da baska bir paragraftir.</p>
+    <p>CSS Html e gore daha fazla detay icermektedir.</p>
+
+</body>
+</html>
