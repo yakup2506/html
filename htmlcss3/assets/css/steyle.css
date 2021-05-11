@@ -11,10 +11,13 @@
 .input {
     margin-bottom: 20px;
     height: 25px;
-    box-sizing: border-box;
+    width: 200px;
+
 }
 .label{
-margin-right: 10px;
+    display: block;
+    margin-right: 10px;
+   
 }
 
 .buton{
@@ -27,4 +30,9 @@ margin-right: 10px;
     background-color: tomato;
     cursor: pointer;
     
+}
+textarea{
+    width: 200px;
+    font-size: 20px;
+    border-radius: 20px;
 }
