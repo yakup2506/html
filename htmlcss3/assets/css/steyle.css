@@ -1,7 +1,30 @@
 *{
     text-align: center;
+    margin: 5px; /* bastan tum marginleri sifirlamis olur*/
+    box-sizing: border-box;
+    /* ccs de kullanilan kutu modelini secmek icin kullanilir
+    genelde border box  modeli tercih edilir.
+    margin : dışa doğru
+    padding : içe doğru boşluk*/
+
 }
 .input {
     margin-bottom: 20px;
     height: 25px;
+    box-sizing: border-box;
+}
+.label{
+margin-right: 10px;
+}
+
+.buton{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    background-color: tomato;
+    cursor: pointer;
+    
 }
